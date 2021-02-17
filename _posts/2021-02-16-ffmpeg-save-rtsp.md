@@ -33,7 +33,13 @@ ffmpeg -i video_file.mp4 -qscale:v 2 output_dir/video_file-%07d.jpg
 
 ## 图片合成视频
 ```sh
+ffmpeg -loop 1 -f image2 -i ./imageName_%d.jpg -vcodec libx264 -r 25 -t 1101.12 ../videoName.mp4
+```
 
+## 视频格式转换
+将一个编码格式为MPEG4的视频转换为H264编码格式：
+```sh
+ffmpeg -i input.mp4 -vcodec h264 output.mp4
 ```
 
 
