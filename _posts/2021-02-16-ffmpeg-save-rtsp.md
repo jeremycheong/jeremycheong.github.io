@@ -2,7 +2,7 @@
 layout: post
 title: ffmpeg save RTSP stream to local file
 subtitle: 
-categories: ffmpeg, linux
+categories: Software
 tags: [ffmpeg]
 ---
 

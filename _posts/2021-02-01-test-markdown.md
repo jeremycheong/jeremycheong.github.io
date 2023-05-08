@@ -2,8 +2,8 @@
 layout: post
 title: Test Markdown Change Box 
 subtitle: Each post also has a subtitle
-categories: markdown
-tags: [test]
+categories: Linux
+tags: [markdown]
 ---
 
 ## Test Markdown
